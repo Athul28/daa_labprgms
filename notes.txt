@@ -1,0 +1,21 @@
+
+Bubble sort
+for(int i=0;i<n-1;i++){
+    for(int j=0;j<n-i-1;j++){
+        ....
+    }
+}
+
+//DFS
+void dfs(int v){
+    reach[v]=1;
+    for(int i=1;i<=n;i++){
+        printf("%d->%d",v,i);
+        dfs(i);
+    }
+}
+
+//Horspool
+for (j=0;j<m-1;j++)
+    t[p[j]]=m-j-1
+
